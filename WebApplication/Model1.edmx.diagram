@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5f83ef1f2d2948bdbd9e4389c0454a9f" Name="Diagram1">
+        <EntityTypeShape EntityType="AdventureWorks2022Model.AWBuildVersion" Width="1.5" PointX="2.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.Categories" Width="1.5" PointX="14" PointY="51.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.CustomerDemographics" Width="1.5" PointX="11.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.Customers" Width="1.5" PointX="14" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.DatabaseLog" Width="1.5" PointX="0.75" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.Employees" Width="1.5" PointX="14" PointY="45" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.ErrorLog" Width="1.5" PointX="4.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.Order_Details" Width="1.5" PointX="18.5" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.Orders" Width="1.5" PointX="16.25" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.Products" Width="1.5" PointX="16.25" PointY="52.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.Region" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.Shippers" Width="1.5" PointX="14" PointY="18" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.Suppliers" Width="1.5" PointX="14" PointY="54" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.sysdiagrams" Width="1.5" PointX="6.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.Territories" Width="1.5" PointX="17.25" PointY="26" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.Department" Width="1.5" PointX="12.75" PointY="84.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.Employee" Width="1.5" PointX="9.75" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.EmployeeDepartmentHistory" Width="1.5" PointX="15" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.EmployeePayHistory" Width="1.5" PointX="12" PointY="59.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.JobCandidate" Width="1.5" PointX="12" PointY="81" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.Shift" Width="1.5" PointX="12.75" PointY="87.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.Address" Width="1.5" PointX="12" PointY="63" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.AddressType" Width="1.5" PointX="14" PointY="94.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.BusinessEntity" Width="1.5" PointX="5.25" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.BusinessEntityAddress" Width="1.5" PointX="16.25" PointY="35.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.BusinessEntityContact" Width="1.5" PointX="12.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.ContactType" Width="1.5" PointX="10.5" PointY="19.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.CountryRegion" Width="1.5" PointX="7.5" PointY="61.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.EmailAddress" Width="1.5" PointX="9.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.Password" Width="1.5" PointX="9.75" PointY="46.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.Person" Width="1.5" PointX="7.5" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.PersonPhone" Width="1.5" PointX="14.75" PointY="14" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.PhoneNumberType" Width="1.5" PointX="12.5" PointY="91.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.StateProvince" Width="1.5" PointX="9.75" PointY="63.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.BillOfMaterials" Width="1.5" PointX="3" PointY="27" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.Culture" Width="1.5" PointX="3.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.Illustration" Width="1.5" PointX="3.75" PointY="14.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.Location" Width="1.5" PointX="9" PointY="43.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.Product" Width="1.5" PointX="6" PointY="24" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.ProductCategory" Width="1.5" PointX="1.5" PointY="31.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.ProductCostHistory" Width="1.5" PointX="8.25" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.ProductDescription" Width="1.5" PointX="3.75" PointY="19.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.ProductInventory" Width="1.5" PointX="11.25" PointY="27.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.ProductListPriceHistory" Width="1.5" PointX="8.25" PointY="26.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.ProductModel" Width="1.5" PointX="3.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.ProductModelIllustration" Width="1.5" PointX="6" PointY="21.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.ProductModelProductDescriptionCulture" Width="1.5" PointX="6" PointY="17.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.ProductPhoto" Width="1.5" PointX="9" PointY="39.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.ProductProductPhoto" Width="1.5" PointX="11.25" PointY="23.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.ProductReview" Width="1.5" PointX="8.25" PointY="32" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.ProductSubcategory" Width="1.5" PointX="3.75" PointY="31.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.ScrapReason" Width="1.5" PointX="9" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.TransactionHistory" Width="1.5" PointX="8.25" PointY="35.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.TransactionHistoryArchive" Width="1.5" PointX="0.75" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.UnitMeasure" Width="1.5" PointX="0.75" PointY="27.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.WorkOrder" Width="1.5" PointX="11.25" PointY="30.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.WorkOrderRouting" Width="1.5" PointX="13.5" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.ProductVendor" Width="1.5" PointX="14.25" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.PurchaseOrderDetail" Width="1.5" PointX="14.25" PointY="21.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.PurchaseOrderHeader" Width="1.5" PointX="12" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.ShipMethod" Width="1.5" PointX="9.75" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.Vendor" Width="1.5" PointX="9.75" PointY="15.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.CountryRegionCurrency" Width="1.5" PointX="17" PointY="66.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.CreditCard" Width="1.5" PointX="12" PointY="69" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.Currency" Width="1.5" PointX="9.75" PointY="72.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.CurrencyRate" Width="1.5" PointX="12" PointY="72.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.Customer" Width="1.5" PointX="12" PointY="76.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.PersonCreditCard" Width="1.5" PointX="14.25" PointY="40.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.SalesOrderDetail" Width="1.5" PointX="16.5" PointY="30.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.SalesOrderHeader" Width="1.5" PointX="14.25" PointY="66.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.SalesOrderHeaderSalesReason" Width="1.5" PointX="16.5" PointY="69.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.SalesPerson" Width="1.5" PointX="7.5" PointY="76" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.SalesPersonQuotaHistory" Width="1.5" PointX="9.75" PointY="80.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.SalesReason" Width="1.5" PointX="14.25" PointY="63.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.SalesTaxRate" Width="1.5" PointX="12" PointY="97.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.SalesTerritory" Width="1.5" PointX="7.5" PointY="64.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.SalesTerritoryHistory" Width="1.5" PointX="9.75" PointY="68.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.ShoppingCartItem" Width="1.5" PointX="8.25" PointY="52.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.SpecialOffer" Width="1.5" PointX="12" PointY="40" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.SpecialOfferProduct" Width="1.5" PointX="14.25" PointY="31.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.Store" Width="1.5" PointX="9.75" PointY="76.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2022Model.ProductDocument" Width="1.5" PointX="8.25" PointY="58.375" IsExpanded="true" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_Products_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_Orders_Customers" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_Employees_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_Orders_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_Order_Details_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_Order_Details_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_Orders_Shippers" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_Products_Suppliers" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_Territories_Region" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_EmployeeDepartmentHistory_Department_DepartmentID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_Employee_Person_BusinessEntityID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_EmployeeDepartmentHistory_Employee_BusinessEntityID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_EmployeePayHistory_Employee_BusinessEntityID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_JobCandidate_Employee_BusinessEntityID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_PurchaseOrderHeader_Employee_EmployeeID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_SalesPerson_Employee_BusinessEntityID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_EmployeeDepartmentHistory_Shift_ShiftID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_Address_StateProvince_StateProvinceID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_BusinessEntityAddress_Address_AddressID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_SalesOrderHeader_Address_BillToAddressID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_SalesOrderHeader_Address_ShipToAddressID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_BusinessEntityAddress_AddressType_AddressTypeID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_BusinessEntityAddress_BusinessEntity_BusinessEntityID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_BusinessEntityContact_BusinessEntity_BusinessEntityID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_Person_BusinessEntity_BusinessEntityID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_Store_BusinessEntity_BusinessEntityID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_Vendor_BusinessEntity_BusinessEntityID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_BusinessEntityContact_ContactType_ContactTypeID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_BusinessEntityContact_Person_PersonID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_CountryRegionCurrency_CountryRegion_CountryRegionCode" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_SalesTerritory_CountryRegion_CountryRegionCode" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_StateProvince_CountryRegion_CountryRegionCode" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_EmailAddress_Person_BusinessEntityID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_Password_Person_BusinessEntityID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_Customer_Person_PersonID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_PersonCreditCard_Person_BusinessEntityID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_PersonPhone_Person_BusinessEntityID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_PersonPhone_PhoneNumberType_PhoneNumberTypeID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_SalesTaxRate_StateProvince_StateProvinceID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_StateProvince_SalesTerritory_TerritoryID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_BillOfMaterials_Product_ComponentID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_BillOfMaterials_Product_ProductAssemblyID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_BillOfMaterials_UnitMeasure_UnitMeasureCode" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_ProductModelProductDescriptionCulture_Culture_CultureID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_ProductModelIllustration_Illustration_IllustrationID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_ProductInventory_Location_LocationID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_WorkOrderRouting_Location_LocationID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_Product_ProductModel_ProductModelID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_Product_ProductSubcategory_ProductSubcategoryID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_Product_UnitMeasure_SizeUnitMeasureCode" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_Product_UnitMeasure_WeightUnitMeasureCode" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_ProductCostHistory_Product_ProductID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_ProductDocument_Product_ProductID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_ProductInventory_Product_ProductID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_ProductListPriceHistory_Product_ProductID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_ProductProductPhoto_Product_ProductID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_ProductReview_Product_ProductID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_ProductVendor_Product_ProductID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_PurchaseOrderDetail_Product_ProductID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_ShoppingCartItem_Product_ProductID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_SpecialOfferProduct_Product_ProductID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_TransactionHistory_Product_ProductID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_WorkOrder_Product_ProductID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_ProductSubcategory_ProductCategory_ProductCategoryID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_ProductModelProductDescriptionCulture_ProductDescription_ProductDescriptionID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_ProductModelIllustration_ProductModel_ProductModelID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_ProductModelProductDescriptionCulture_ProductModel_ProductModelID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_ProductProductPhoto_ProductPhoto_ProductPhotoID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_WorkOrder_ScrapReason_ScrapReasonID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_ProductVendor_UnitMeasure_UnitMeasureCode" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_WorkOrderRouting_WorkOrder_WorkOrderID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_ProductVendor_Vendor_BusinessEntityID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_PurchaseOrderDetail_PurchaseOrderHeader_PurchaseOrderID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_PurchaseOrderHeader_ShipMethod_ShipMethodID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_PurchaseOrderHeader_Vendor_VendorID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_SalesOrderHeader_ShipMethod_ShipMethodID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_CountryRegionCurrency_Currency_CurrencyCode" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_PersonCreditCard_CreditCard_CreditCardID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_SalesOrderHeader_CreditCard_CreditCardID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_CurrencyRate_Currency_FromCurrencyCode" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_CurrencyRate_Currency_ToCurrencyCode" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_SalesOrderHeader_CurrencyRate_CurrencyRateID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_Customer_SalesTerritory_TerritoryID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_Customer_Store_StoreID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_SalesOrderHeader_Customer_CustomerID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_SalesOrderDetail_SalesOrderHeader_SalesOrderID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_SalesOrderDetail_SpecialOfferProduct_SpecialOfferIDProductID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_SalesOrderHeader_SalesPerson_SalesPersonID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_SalesOrderHeader_SalesTerritory_TerritoryID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_SalesOrderHeaderSalesReason_SalesOrderHeader_SalesOrderID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_SalesOrderHeaderSalesReason_SalesReason_SalesReasonID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_SalesPerson_SalesTerritory_TerritoryID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_SalesPersonQuotaHistory_SalesPerson_BusinessEntityID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_SalesTerritoryHistory_SalesPerson_BusinessEntityID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_Store_SalesPerson_SalesPersonID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_SalesTerritoryHistory_SalesTerritory_TerritoryID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.FK_SpecialOfferProduct_SpecialOffer_SpecialOfferID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.CustomerCustomerDemo" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2022Model.EmployeeTerritories" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
